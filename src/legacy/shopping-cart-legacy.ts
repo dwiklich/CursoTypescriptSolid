@@ -1,4 +1,7 @@
-type Product = { name: string; price: number };
+interface Product {
+  name: string;
+  price: number;
+}
 type OrderStatus = 'open' | 'closed';
 
 export class ShoppingCartLegacy {
